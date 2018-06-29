@@ -1,7 +1,10 @@
 sceneSetups:
-- path: Assets/Scenes/Main Menu.unity
+- path: Assets/Resources/Scenes/Main Menu.unity
   isLoaded: 0
   isActive: 0
-- path: Assets/Scenes/Introvideo.unity
+- path: Assets/Resources/Scenes/Introvideo.unity
+  isLoaded: 0
+  isActive: 0
+- path: Assets/Resources/Scenes/Chapter Select.unity
   isLoaded: 1
   isActive: 1

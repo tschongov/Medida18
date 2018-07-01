@@ -1,21 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Fridge_Menu : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public GameObject fridge;
+    public GameObject fridge1;
+    public GameObject menu;
 
-    void OnMouseClick()
+    void Start()
     {
+        fridge1.SetActive(false);
+        menu.SetActive(false);
+    }
 
+    // Use this for initialization
+
+    void OnMouseDown()
+    {
+        fridge.SetActive(false);
+        fridge1.SetActive(true);
+        menu.SetActive(true);
     }
 }

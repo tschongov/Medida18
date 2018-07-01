@@ -17,6 +17,8 @@ public class drag_Bottle : MonoBehaviour {
     void OnMouseDrag()
     {
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        transform.Rotate(135, 0, 0);
         transform.position = (pos);
+     
     }
 }

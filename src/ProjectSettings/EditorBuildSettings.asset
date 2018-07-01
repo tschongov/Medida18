@@ -6,6 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Resources/Scenes/Main Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito_Main.unity
+    guid: a19daceb06bbe6c40890c31ab3cd267b
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito.Cut_Lime.unity
+    guid: f3ea93daf41ce0545b9c527f38640400
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito.Stamp_Lime.unity
+    guid: 82a035363a15fb64fa82647f4df4d21d
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito.Pick_Mint.unity
+    guid: 830d01e947db1f145bc579c9a6fa3ab8
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito.Add_Rum.unity
+    guid: 098f7f4486ea7844fa31d6f92dc0a97b
+  - enabled: 1
+    path: Assets/Resources/Scenes/Mojito_Muddle.unity
+    guid: d7f6b5ae81a8e1a479596961452d1ebe
   m_configObjects: {}

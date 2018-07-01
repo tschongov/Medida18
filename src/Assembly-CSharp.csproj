@@ -57,6 +57,10 @@
      <Compile Include="Assets\Resources\Scripts\Common\button_mute.cs" />
      <Compile Include="Assets\Resources\Scripts\Common\select_chapter.cs" />
      <Compile Include="Assets\Resources\Scripts\Introvideo\video_start.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Add_Rum\drag_Bottle.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Cut_Lime\Cut.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Fridge_Menu.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Mint\drag_Mint.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Stamp_Lime\Drag.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Tung/Documents/Uni/Medida18/src/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

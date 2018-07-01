@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
+    public int count = 0;
     void Update()
     {
 
@@ -15,6 +16,7 @@ public class Drag : MonoBehaviour
     {
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = (pos);
+        
     }
 }
 

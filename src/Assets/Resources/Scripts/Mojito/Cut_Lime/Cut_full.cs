@@ -16,7 +16,10 @@ public class Cut_full : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        Vector2 lineTracking = Input.mousePosition;
+        Debug.Log("x" + lineTracking.x);
+        Debug.Log("y" + lineTracking.y);
+
 	}
 
     void OnMouseDown()

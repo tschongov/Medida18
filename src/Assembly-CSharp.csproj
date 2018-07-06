@@ -64,6 +64,7 @@
      <Compile Include="Assets\Resources\Scripts\Mojito\Fridge_Menu.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Mint\drag_Mint.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Mint\ifPicked_Checker.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Mint\NextScnene_Mint.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\NextScene_Click.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Stamp_Lime\Drag.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Stamp_Lime\Stamp_Trigger.cs" />

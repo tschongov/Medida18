@@ -1093,8 +1093,8 @@ GameObject:
   - component: {fileID: 1664171897}
   - component: {fileID: 1664171899}
   - component: {fileID: 1664171900}
-  - component: {fileID: 1664171901}
   - component: {fileID: 1664171898}
+  - component: {fileID: 1664171901}
   m_Layer: 0
   m_Name: Limetten.exe_2
   m_TagString: Untagged
@@ -1123,10 +1123,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1664171896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab85d7b23a7d3994f914895c9a5cf5f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 1928d0d008baa4f49aa0078531617d8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 5
+  Lime: {fileID: 0}
+  chapter: Mojito.Stamp_Lime
 --- !u!212 &1664171899
 SpriteRenderer:
   m_ObjectHideFlags: 0

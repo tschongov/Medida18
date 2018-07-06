@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/Mojito.Pick_Mint.unity
+- path: Assets/Resources/Scenes/Mojito.Add_Rum.unity
   isLoaded: 1
   isActive: 1

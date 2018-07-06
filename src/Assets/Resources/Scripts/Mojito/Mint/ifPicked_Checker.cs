@@ -6,8 +6,9 @@ public class ifPicked_Checker : MonoBehaviour
 {
 
     Vector3 lastPos;
-    Transform obj; // drag the object to monitor here
-    float threshold = 0.0f; // minimum displacement to recognize a 
+    public Transform obj; // drag the object to monitor here
+    public GameObject part;
+    float threshold = 2.0f; // minimum displacement to recognize a 
 
     void Start()
     {
@@ -21,12 +22,16 @@ public class ifPicked_Checker : MonoBehaviour
         {
             lastPos = obj.position; // update lastPos
                                     // code to execute when X is getting bigger
+            Debug.Log("gezupft");
+            part.SetActive(false);
         }
         else
         if (offset.x < -threshold)
         {
             lastPos = obj.position; // update lastPos
                                     // code to execute when X is getting smaller 
+            Debug.Log("gezupft");
+            part.SetActive(false);
         }
     }
 }

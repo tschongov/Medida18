@@ -122,8 +122,6 @@ GameObject:
   m_Component:
   - component: {fileID: 423095510}
   - component: {fileID: 423095509}
-  - component: {fileID: 423095512}
-  - component: {fileID: 423095511}
   m_Layer: 0
   m_Name: "Bark\xFChlschrankZu.exe"
   m_TagString: Untagged
@@ -183,89 +181,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 423095508}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.53, y: 0.16, z: 0}
+  m_LocalPosition: {x: 12.01, y: -1.53, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &423095511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 423095508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5372bd1c08f22e54e915785a43ae4254, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fridge: {fileID: 423095508}
-  fridge1: {fileID: 0}
-  menu: {fileID: 0}
---- !u!60 &423095512
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 423095508}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.48, y: 15.36}
-    newSize: {x: 20.48, y: 15.36}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 2.01, y: 6.25}
-      - {x: 2.04, y: 6.5899997}
-      - {x: 2.04, y: 6.8599997}
-      - {x: 1.9499999, y: 6.91}
-      - {x: -0.48999998, y: 6.91}
-      - {x: -0.5, y: 6.8999996}
-      - {x: -3.9599998, y: 6.91}
-      - {x: -7.22, y: 6.91}
-      - {x: -7.22, y: 6.93}
-      - {x: -7.43, y: 6.95}
-      - {x: -7.52, y: 6.95}
-      - {x: -7.54, y: 6.92}
-      - {x: -7.54, y: 4.44}
-      - {x: -7.52, y: 3.08}
-      - {x: -7.5099998, y: 1.4399999}
-      - {x: -7.5, y: -0.29999998}
-      - {x: -7.5, y: -6.15}
-      - {x: -7.52, y: -6.56}
-      - {x: -7.33, y: -6.62}
-      - {x: -6.74, y: -6.58}
-      - {x: -5.62, y: -6.58}
-      - {x: 1.51, y: -6.6}
-      - {x: 1.7099999, y: -6.6299996}
-      - {x: 1.8399999, y: -6.6299996}
-      - {x: 1.9, y: -6.5899997}
-      - {x: 1.89, y: -6.43}
-      - {x: 1.92, y: -0.91999996}
-      - {x: 1.99, y: 5.02}
-    - - {x: -2.1299999, y: -6.15}
-      - {x: -2.1399999, y: -5.8799996}
-      - {x: -2.1599998, y: -5.93}
-      - {x: -2.1599998, y: -6}
-      - {x: -2.1399999, y: -6.2999997}
-      - {x: -2.1299999, y: -6.3199997}
-    - - {x: -1.86, y: -5.85}
-      - {x: -1.9799999, y: -5.8599997}
-      - {x: -1.8299999, y: -5.87}
-      - {x: -1.8199999, y: -5.89}
-      - {x: -1.8199999, y: -5.8799996}
 --- !u!1 &889400513
 GameObject:
   m_ObjectHideFlags: 0
@@ -318,7 +239,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.1264963
+  orthographic size: 5.7164555
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -341,7 +262,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 889400513}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 0.12, z: -10}
+  m_LocalPosition: {x: 0, y: 0.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -415,7 +336,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1063781786}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.25, y: -0.05, z: 0}
+  m_LocalPosition: {x: 2.25, y: -1.43, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -491,7 +412,7 @@ Transform:
   m_GameObject: {fileID: 1788099270}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.06, y: 1.32, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

@@ -5,18 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Stamp_Trigger : MonoBehaviour {
 
+    public int count = 0;
 
-    public int count = 5; 
-
-    public GameObject target;
-	void OnCollisionEnter(Collision col)
+	void OnCollisionEnter2D()
     {
-       if(col.gameObject == target)
+        if (count > 3)
         {
-            if (count >= 3)
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene("Mojito.Pick_Mint");
         }
-
+        Debug.Log("Bam:  " + count);
         count++;
     }
 }

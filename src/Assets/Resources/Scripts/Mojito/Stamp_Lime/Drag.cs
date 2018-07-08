@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
-    public int count = 0;
+    
     void Update()
     {
 

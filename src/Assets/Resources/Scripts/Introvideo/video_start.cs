@@ -7,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 public class video_start : MonoBehaviour {
 
-	GameObject image;
+	SpriteRenderer image;
+	Sprite[] panels;
 	Text textfield;
 	String[] text = {
 		"Ich hörte, es soll irgendwo auf der Welt einen Tempel geben, \nwo ein alter Meister nur den Würdigen das perfekte Cocktailmixen beibringt.",
@@ -38,11 +39,13 @@ public class video_start : MonoBehaviour {
 		"Und so beginnt meine Lehre..."
 	};
 	int pos = 0;
+	int num = 0;
 
 	// Use this for initialization
 	void Start () {
-		image = GameObject.Find("Panels");//.GetComponent<Sprite>();
+		image = GameObject.Find("Panels").GetComponent<SpriteRenderer>();//.GetComponent<Sprite>();
 		textfield = GameObject.Find("Text").GetComponent<Text>();
+		panels = Resources.LoadAll<Sprite>("Graphics/Introvideo");
 	}
 
 	public void on_click(String chapter){
@@ -57,34 +60,35 @@ public class video_start : MonoBehaviour {
 
 		switch(pos){
 			case 3:
-				image.transform.position = new Vector2(-8.8f, -18);
+				num+=1;
 				break;
 
-
 			case 5:
-				image.transform.position = new Vector2(8, -6);
+				num+=1;
 				break;
 
 			case 7:
-				image.transform.position = new Vector2(-8.8f, -6);
+				num+=1;
 				break;
 
 			case 8:
-				image.transform.position = new Vector2(8, 6);
+				num+=1;
 				break;
 
 			case 9:
-				image.transform.position = new Vector2(-8.8f, 6);
+				num+=1;
 				break;
 
 			case 12:
-				image.transform.position = new Vector2(8, 18);
+				num+=1;
 				break;
 
 			case 16:
-				image.transform.position = new Vector2(-8.8f, 18);
+				num+=1;
 				break;
 		};
+
+		image.sprite = panels[num];
 	}
 
 	// Update is called once per frame

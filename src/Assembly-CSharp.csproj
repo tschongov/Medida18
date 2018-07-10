@@ -57,11 +57,10 @@
      <Compile Include="Assets\Resources\Scripts\Common\button_mute.cs" />
      <Compile Include="Assets\Resources\Scripts\Common\select_chapter.cs" />
      <Compile Include="Assets\Resources\Scripts\Introvideo\video_start.cs" />
-     <Compile Include="Assets\Resources\Scripts\Mojito\Add_Rum\drag_Bottle.cs" />
+     <Compile Include="Assets\Resources\Scripts\Mojito\Add_Rum\Rum_Menu.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Cut_Lime\Cut.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Cut_Lime\Cut_full.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Cut_Lime\Load_NextScene.cs" />
-     <Compile Include="Assets\Resources\Scripts\Mojito\Fridge_Menu.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Mint\drag_Mint.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Mint\ifPicked_Checker.cs" />
      <Compile Include="Assets\Resources\Scripts\Mojito\Mint\NextScnene_Mint.cs" />

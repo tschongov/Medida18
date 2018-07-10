@@ -5,19 +5,23 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Load_NextScene : MonoBehaviour {
-    public GameObject Lime;
+    public GameObject Hook;
     public String chapter;
 	// Use this for initialization
 	void OnMouseDown () {
-           
-            SceneManager.LoadScene(chapter);
-     
+
+        Hook.SetActive(true);
+        StartCoroutine(WaitAndLoadScene());
+
     }
 
-    // Update is called once per frame
-    void Update () {
-		
-          
- 
-	}
+    IEnumerator WaitAndLoadScene()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene("Mojito.Stamp_Lime");
+    }
 }
+
+
+		
+       

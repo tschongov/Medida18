@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Cut_full : MonoBehaviour {
 
-
+    public GameObject Hook;
     public GameObject Lime;
     public GameObject Lime2;
 
@@ -12,6 +12,7 @@ public class Cut_full : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         Lime2.SetActive(false);
+        Hook.SetActive(false);
 	}
 	
 	// Update is called once per frame

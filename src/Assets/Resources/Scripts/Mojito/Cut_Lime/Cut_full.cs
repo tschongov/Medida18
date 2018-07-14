@@ -4,22 +4,21 @@ using UnityEngine;
 
 public class Cut_full : MonoBehaviour {
 
-    public GameObject Hook;
+    
     public GameObject Lime;
     public GameObject Lime2;
 
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         Lime2.SetActive(false);
-        Hook.SetActive(false);
+        
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        Vector2 lineTracking = Input.mousePosition;
-        Debug.Log("x" + lineTracking.x);
-        Debug.Log("y" + lineTracking.y);
+       
 
 	}
 

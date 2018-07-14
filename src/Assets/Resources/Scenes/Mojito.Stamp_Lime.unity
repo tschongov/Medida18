@@ -113,6 +113,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &103220426 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1378746798859668, guid: e2a53edfac456c14bbb6cd5de12516b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 339422420}
 --- !u!1 &112407674
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +130,6 @@ GameObject:
   - component: {fileID: 112407675}
   - component: {fileID: 112407676}
   - component: {fileID: 112407679}
-  - component: {fileID: 112407680}
   m_Layer: 0
   m_Name: Barstampfer.exe_0
   m_TagString: Untagged
@@ -356,19 +360,74 @@ PolygonCollider2D:
       - {x: 0.76, y: -5.85}
       - {x: 0.72999996, y: -5.85}
       - {x: 0.72999996, y: -5.52}
---- !u!114 &112407680
+--- !u!114 &171895399 stripped
 MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114386702775996906, guid: e2a53edfac456c14bbb6cd5de12516b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 339422420}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+--- !u!1001 &339422420
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 112407674}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cc5c7cc3e49ebfb4dba434b6534371e8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Hook: {fileID: 1854415213}
-  count: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280447151574620, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 212584513169455746, guid: e2a53edfac456c14bbb6cd5de12516b1,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4227313817239748, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -67.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 114386702775996906, guid: e2a53edfac456c14bbb6cd5de12516b1,
+        type: 2}
+      propertyPath: m_Text
+      value: "Nun wollen wir das kostbare Innere der Limette herrausholen. Um dies
+        zu erreichen benuzten wir einen Barst\xF6\xDFel"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4227313817239748, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -69.965
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114472863024142916, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &637057052
 GameObject:
   m_ObjectHideFlags: 0
@@ -583,6 +642,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &872525501 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1176661530385466, guid: e2a53edfac456c14bbb6cd5de12516b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 339422420}
 --- !u!1 &1329437182
 GameObject:
   m_ObjectHideFlags: 0
@@ -729,6 +793,7 @@ GameObject:
   - component: {fileID: 1533409425}
   - component: {fileID: 1533409424}
   - component: {fileID: 1533409423}
+  - component: {fileID: 1533409426}
   m_Layer: 0
   m_Name: "CocktailglasGro\xDF.exe 1"
   m_TagString: Untagged
@@ -790,7 +855,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 980d204c444a87842a1924afb6dd1d0d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -816,6 +881,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1533409426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1533409422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc5c7cc3e49ebfb4dba434b6534371e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Hook: {fileID: 1854415213}
+  count: 0
 --- !u!1 &1578133231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,6 +1136,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2024396910 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1334511317148330, guid: e2a53edfac456c14bbb6cd5de12516b1,
+    type: 2}
+  m_PrefabInternal: {fileID: 339422420}
+--- !u!114 &2024396911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2024396910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93c3c49d656d5ea4ebc8dd2476dd7979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dBox: {fileID: 872525501}
+  dtext: {fileID: 171895399}
+  avatar: {fileID: 103220426}
+  dLines:
+  - "Nun wollen wir das kostbare Innere der Limette herrausholen. Um dies zu erreichen
+    benuzten wir einen Barst\xF6\xDFel"
+  - "Ziehe den St\xF6\xDFel mit der Maus und lasse es in dem Cocktails fallen. Wiederhole
+    es bis ich Ok sage.     "
+  - 'PS:  kleiner Tipp von mir. Fasse mit der Hand beim Stampfen fest am Glasrand,
+    damit das Glas nicht verrutscht'
+  currentline: 0
 --- !u!1 &2047336410
 GameObject:
   m_ObjectHideFlags: 0

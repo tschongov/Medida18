@@ -15,12 +15,14 @@ public class Stamp_Trigger : MonoBehaviour {
 
 	void OnCollisionEnter2D()
     {
+
         if (count > 3)
         {
             Hook.SetActive(true);
             StartCoroutine(WaitAndLoadScene());
         }
         Debug.Log("Bam:  " + count);
+
         count++;
     }
 

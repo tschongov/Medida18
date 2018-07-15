@@ -94,6 +94,7 @@ public class Add_Rum_Menu : MonoBehaviour {
     {
         emptyGlas.SetActive(false);
         fullGlas.SetActive(true);
+        currentStatus = menuStates.Return;
     }
 
     public void OnSpiritMode()

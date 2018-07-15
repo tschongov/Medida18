@@ -7,8 +7,10 @@ public class Next_Scene : MonoBehaviour {
 
     public GameObject glas;
     public GameObject jigger;
+    public GameObject jigger2;
     public GameObject ice;
     public GameObject Hook;
+    public GameObject dialogue;
 
 
     void Start()
@@ -19,10 +21,14 @@ public class Next_Scene : MonoBehaviour {
     void Update()
     {
 
-        if (glas.activeSelf && jigger.activeSelf && ice.activeSelf)
+        if (glas.activeSelf && jigger.activeSelf && ice.activeSelf && jigger2.activeSelf)
         {
             Hook.SetActive(true);
-            StartCoroutine(WaitAndLoadScene());
+
+            if (!dialogue.activeSelf)
+            {
+                StartCoroutine(WaitAndLoadScene());
+            }
         }
     }
 

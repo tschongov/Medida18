@@ -26,4 +26,46 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Resources/Scenes/Mojito_Muddle.unity
     guid: d7f6b5ae81a8e1a479596961452d1ebe
+  - enabled: 1
+    path: Assets/Resources/Scenes/Chapter Select.unity
+    guid: 683591712ef0bbc419cd4ae026158b76
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Fine Strain.unity
+    guid: e9257fae61269ed44ae0785068458205
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Limettensaft.unity
+    guid: 57a8ee8ea3cdecd4487171b7ee810286
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Main.unity
+    guid: 617e71b3055ae834594e5610b31c0cc2
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Salzrand Minispiel1.unity
+    guid: b4ddaa67a2308eb4b8e5c2da60fb1807
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Salzrand Minispiel2.unity
+    guid: 629f9db578d3ced409c8a967a253710b
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Shaking.unity
+    guid: f458734baac953b4e9771cbfb3ac6c4a
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Tequila.unity
+    guid: e4a07696cf436a94d8ed8c19308023ca
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Trippe Sec.unity
+    guid: a69382d74b0b7c74596f65faa8044b75
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Zuckersirup.unity
+    guid: 8d9a3aa40bbb7d848a12751e32cf6b30
+  - enabled: 1
+    path: Assets/Resources/Scenes/Daiquiri Zutaten.unity
+    guid: cbca80fe95b20974e9c93aa916c1f9c8
+  - enabled: 1
+    path: Assets/Resources/Scenes/Introvideo.unity
+    guid: 80b20f04d105c67499167a4957e3058f
+  - enabled: 1
+    path: Assets/Resources/Scenes/Order.unity
+    guid: 6d918d9aa1f65de468dcab8b66d6d1bc
+  - enabled: 1
+    path: Assets/Resources/Scenes/Quiz.unity
+    guid: c060af063adafaa4dbadff39c5fc4a87
   m_configObjects: {}

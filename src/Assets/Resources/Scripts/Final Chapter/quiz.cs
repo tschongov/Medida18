@@ -19,29 +19,32 @@ public class quiz : MonoBehaviour {
 		"Wenn du auch nur einen Fehler machst, beginnen wir von Vorne!",
 		"Beginnen wir nun mit der ersten Frage:",
 		"",
-		"Korrekt, wenn weniger Zutaten verwendet werden, nennt man es einen Longdrink.",
+		"Korrekt, wenn weniger Spirituosen verwendet werden, nennt man es einen Longdrink.",
 		"Weiter geht's:",
 		"",
-		"Genau!",
+		"Genau! Weißer Rum wird in Stahltanks gelagert während brauner Rum in Holzfässern gelagert wird. Dadurch entsteht der holzige Geschmack",
 		"Jetzt versuchen wir es mal mit etwas schwererem:",
 		"",
 		"Richtig, ",
 		"Hoffentlich kennst du die Antwort zu:",
 		"",
-		"So wie ich es von meinem Lehrling erwarte! ",
+		"So wie ich es von meinem Lehrling erwarte! Beachte! Bearbeitest du die Minze zu stark, setzt sie Bitterstoffe frei, die dein Cocktail schlecht macht",
 		"Ein echter Barkeeper kennt den Geschmack von allen Getränken",
 		"",
-		"Ich bin stolz auf dich! ",
+		"Ich bin stolz auf dich!",
 		"Wenn du nun diese Frage falsch beantwortest, werde ich extrem enttäuscht:",
 		"",
-		"Fantastisch, hoffentlich hast du alles nun verstanden!"
+		"Fantastisch, hoffentlich hast du alles nun verstanden!\nJetzt habe ich dir all mein Wissen weitergegeben.\nProbiere es nun in der echten Welt anzuwenden!"
 	};
 
 	String[] explanation = {
-		"Falsch, ein Getränk wird erst als Cocktail eingestuft, wenn es 3 oder Mehr Zutaten enthält.\nVon Vorne!",
-		"Falsch,1",
-		"Falsch,2",
-	};
+		"Falsch, ein Getränk wird erst als Cocktail eingestuft, wenn es min. 2 Spirituosen enthält.\nVon Vorne!",
+        "Falsch! Hast du dich schon mal gefragt wieso weißer Rum  schärfer und brauner Rum würziger schmeckt. Das liegt an der Lagerung!\nVon Vorne!",
+        "Falsch! Hats du den nichts gelernt? Crush Eis kühl den Cocktail schneller als mit Cube Eis\nVon Vorne!",
+        "Falsch! du entäuschst mich! Man sollte die Minze klatschen um das Aroma freizusetzen\nVon Vorne!",
+        "Falsch! Ein Mojito sollte erfrischend sein! Das ist der Charakter dieses Cocktails!\nVon Vorne!",
+        "Falsch! Ich gebe zu diese Frage ist schwer, aber bei einem Longdrink überwiegt der Anteil am Softdrink\nVon Vorne!"
+    };
 
 	String[] questions = {
 		"Wann kann man ein Getränk als Cocktail bezeichnen?",
@@ -57,12 +60,12 @@ public class quiz : MonoBehaviour {
 		"A)	Getränk mit min. aus Eis und Flüssigkeit",
 		"B)	Getränk mit aus min. 3 Zutaten",
 		"C)	Getränk mit min. aus eine bestimmte Menge Spirituose",
-		"D)	Getränk mit aus min. 2 Spirituosen",
+		"D)	Getränk mit min. 2 Spirituosen",
 
 		"A)	Art der Lagerung",
 		"B)	Alkoholgehalt",
 		"C)	Rohmaterial ",
-		"D)	Geschmack",
+		"D)	Herkunft",
 
 		"A)	Es gibt keine Vorteile",
 		"B)	Der Kühleffekt wird beschleunigt",
@@ -74,13 +77,13 @@ public class quiz : MonoBehaviour {
 		"C)	Minze trocknen",
 		"D)	Minze im heißem Wasser kochen",
 
-		"A)	Fruchtig süß",
-		"B)	Erfrischend",
+		"A)	schokoladig bitter",
+		"B)	fruchtig erfrischend",
 		"C)	Herb",
-		"D)	Süßsauer",
+		"D)	scharf",
 
 		"A)	Getränk mit weniger als 2 Zutaten",
-		"B)	Getränk aus alkoholische und nicht alkoholische Komponente",
+		"B)	Getränk nur aus alkoholischen Komponenten",
 		"C)	Getränk mit min. 2/3 Anteil an Softdrinks",
 		"D)	Getränk das nicht aus einem Shaker gemacht wurde"
 	};
@@ -155,11 +158,11 @@ public class quiz : MonoBehaviour {
 		else {
 			switch(pos){
 				case 3:
-					check(2);
+					check(4);
 					break;
 
 				case 6:
-					check(3);
+					check(1);
 					break;
 
 				case 9:
@@ -171,11 +174,11 @@ public class quiz : MonoBehaviour {
 					break;
 
 				case 15:
-					check(1);
+					check(2);
 					break;
 
 				case(18):
-					check(1);
+					check(3);
 					break;
 			}
 

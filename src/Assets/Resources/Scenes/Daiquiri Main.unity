@@ -299,6 +299,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1260ba4ac91ef9448bebe132c3b9d019, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &802015613
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224139311608302226, guid: 78a1525fde8bdbd4680ba0b40fe226bb,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 78a1525fde8bdbd4680ba0b40fe226bb, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &891679659
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,11 +668,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4227313817239748, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -70.567
+      value: -70.06
       objectReference: {fileID: 0}
     - target: {fileID: 4227313817239748, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -66.73
+      value: -66.8
       objectReference: {fileID: 0}
     - target: {fileID: 212584513169455746, guid: e2a53edfac456c14bbb6cd5de12516b1,
         type: 2}
@@ -577,8 +682,9 @@ Prefab:
     - target: {fileID: 114386702775996906, guid: e2a53edfac456c14bbb6cd5de12516b1,
         type: 2}
       propertyPath: m_Text
-      value: "Klicken Sie auf die K\xFChlschrank, um die Zutaten zu finden. W\xE4hlen
-        Sie zuerst den Salz und dann die Limette.\n"
+      value: "In diesem Kapitel wollen wir einen Tequilla Margarita mixen. Klicken
+        Sie auf die K\xFChlschrank, um die Zutaten zu finden. W\xE4hlen Sie zuerst
+        den Salz und dann die Limette.\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e2a53edfac456c14bbb6cd5de12516b1, type: 2}

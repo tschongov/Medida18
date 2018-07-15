@@ -1,9 +1,37 @@
 WebGL
 PlayerPath?
-C:/Users/HP/Desktop/Studium/Medienpsychologie/test
+C:/Users/Tung/Documents/Take it! Shake it!
 SceneListBegin?
-Assets/Scenes/Main Menu.unity
+Assets/Resources/Scenes/Main Menu.unity
+Assets/Resources/Scenes/Mojito_Main.unity
+Assets/Resources/Scenes/Mojito.Cut_Lime.unity
+Assets/Resources/Scenes/Mojito.Stamp_Lime.unity
+Assets/Resources/Scenes/Mojito.Pick_Mint.unity
+Assets/Resources/Scenes/Mojito.Add_Rum.unity
+Assets/Resources/Scenes/Mojito_Muddle.unity
+Assets/Resources/Scenes/Chapter Select.unity
+Assets/Resources/Scenes/Daiquiri Fine Strain.unity
+Assets/Resources/Scenes/Daiquiri Limettensaft.unity
+Assets/Resources/Scenes/Daiquiri Main.unity
+Assets/Resources/Scenes/Daiquiri Salzrand Minispiel1.unity
+Assets/Resources/Scenes/Daiquiri Salzrand Minispiel2.unity
+Assets/Resources/Scenes/Daiquiri Shaking.unity
+Assets/Resources/Scenes/Daiquiri Tequila.unity
+Assets/Resources/Scenes/Daiquiri Trippe Sec.unity
+Assets/Resources/Scenes/Daiquiri Zuckersirup.unity
+Assets/Resources/Scenes/Daiquiri Zutaten.unity
+Assets/Resources/Scenes/Introvideo.unity
+Assets/Resources/Scenes/Order.unity
+Assets/Resources/Scenes/Quiz.unity
 SceneListEnd?
+dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.tilt
+190743a8945f1f98c7db4a2561ee5d34 Assembly-CSharp.dll:.Button_Away
+e4ac9ebe38c31765334a4a64b42d31e4 Assembly-CSharp.dll:.Overwatch_Muddle
+0cb3faffaa7457cffb637bf99440f84a Assembly-CSharp.dll:.zutaten
+eceef1386bc3d4e5e5a5ee7cd57b3290 Assembly-CSharp.dll:.pfeil_links
+1f0ca9aa7720d6eb2229f931fbbf44da Assembly-CSharp.dll:.ifPicked_Checker
+39c01c3ab9b918473fd1a62ed9bc3616 Assembly-CSharp.dll:.to_shaker
+db03e4b4cf367a799a037363b525805c Assembly-CSharp.dll:.salzrand_teil2
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 13bdb7c23815c33a33b37b0ba8dd39be UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -16,6 +44,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+3b83c6c8b114884ef8647f3efef86de4 Assembly-CSharp.dll:.Load_NextScene
+fa800263296d758f70614b533d5d0142 Assembly-CSharp.dll:.messbecher2
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -48,6 +78,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.tripple_sec
 a35dc9cca2faebc5f5f1aeb9e8e47bbe UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 49cd62a578efc0a599b810a2b66cd49c UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -80,6 +111,9 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+498f4bdb374a313d1e33f2138cdeec3b Assembly-CSharp.dll:.drag_shake
+a9a98d7023a14f0933cab97e23451178 Assembly-CSharp.dll:.Dialogue
+db03e4b4cf367a799a037363b525805c Assembly-CSharp.dll:.NextScene_Click
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 cf455f7a806648c6ed4c7d3e3f8a0e03 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 13bdb7c23815c33a33b37b0ba8dd39be UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -92,6 +126,9 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 30afa8783a8bbee2e465ec9ce1efaee2 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 607d64d2c4bc76ac9876e6f7b9cc7edf UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.daiquiri_open_fridge
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.info_button
+47626f2ace91b530c5bf69133ab330a5 Assembly-CSharp.dll:.messbecher
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -106,7 +143,12 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+4ddddd36cca6333dac77ab9b108d5386 Assembly-CSharp.dll:.Stamp_Trigger
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+dcfcb28d1dc638e82b3f6d20dff136a8 Assembly-CSharp.dll:.glas_not_full
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.limettensaft
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Ice_Dialogue
+d8d7074d4ec361f8f973c3fb791d2257 Assembly-CSharp.dll:.tequila_add
 322cb40e1e282f28af980cbef7922a90 UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsEventTracker
 dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics.AnalyticsTracker
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
@@ -114,6 +156,22 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.tequila
+f84efb193da2cff4bfbe6512c4e4fc89 Assembly-CSharp.dll:.open
+c26ac59076332b7f8bbe52f878616b33 Assembly-CSharp.dll:.Overwatch_AddRum
+51b0c90c60ef3894a255a7f66100b433 Assembly-CSharp.dll:.tripplesec_add
+d461384e929e8aca92ee27f9624d816e Assembly-CSharp.dll:.NextScnene_Mint
+dd5481137759597d614818793c90a7fe Assembly-CSharp.dll:.Muddlen
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Cut
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.select_chapter
+cf5f223fcd17566059a60d39ed0c013a Assembly-CSharp.dll:.Main_Menu
+44a92c17f75669600d4b6da3c7cb9393 Assembly-CSharp.dll:.salzrand_teil1
+9ddc0362bde5bd13e39a43f6b3bf3364 Assembly-CSharp.dll:.OnNextScene
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.order
+a9a98d7023a14f0933cab97e23451178 Assembly-CSharp.dll:.DialogueScript
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.quiz
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.zuckersirup
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.on_hover
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -128,6 +186,14 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+4ddddd36cca6333dac77ab9b108d5386 Assembly-CSharp.dll:.Trigger
+39c01c3ab9b918473fd1a62ed9bc3616 Assembly-CSharp.dll:.becher_movetowards
+db327737af03909f223cd7cf4bdbffc8 Assembly-CSharp.dll:.Overwatch_CutLime
+76a3b3343eaf5fb86e1dd1e54886b921 Assembly-CSharp.dll:.Overwatch_Stamp
+7bf8085f6c188e1b5f1bc536b9181e36 Assembly-CSharp.dll:.shake
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.lime
+87ac0f4d61dadf543efaea11dc55ad0d Assembly-CSharp.dll:.Next_Scene
+71c80e0313c179dfcebbecfe1ad6d227 Assembly-CSharp.dll:.Cut_full
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
 f02726adeff0a3ec5905565234b372da UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.PlaymodeTestsController
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
@@ -144,5 +210,16 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.salz
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.button_start
+449c2a738e859c1e98bab76d0feb7786 Assembly-CSharp.dll:.Multiple_Diaglogue
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.video_start
+f67f4fac2109f56cdfcdd80af74002c7 Assembly-CSharp.dll:.Count_menu
+d9c9dfc46c4ab7d694e62e01b18fe5c9 Assembly-CSharp.dll:.salt
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.drag_Mint
+33b47eddbec66f52290496dca19a2d2f Assembly-CSharp.dll:.salzrand_lime
+261b7cbed3a31c69789df8d903ca0061 Assembly-CSharp.dll:.Overwatch
+27ea197c5af0e65eb71cecf160c5c1ec Assembly-CSharp.dll:.Add_Rum_Menu
+eceef1386bc3d4e5e5a5ee7cd57b3290 Assembly-CSharp.dll:.pfeil_rechts
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.button_mute
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Drag

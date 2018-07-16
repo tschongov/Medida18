@@ -3,27 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Stamp_Trigger : MonoBehaviour {
+public class Stamp_Trigger : MonoBehaviour
+{
 
     public GameObject Hook;
+    public GameObject Stamp;
     void Start()
     {
         Hook.SetActive(false);
     }
 
-    public int count = 0;
+    public int counter = 0;
 
-	void OnCollisionEnter2D()
+    void Update()
     {
 
-        if (count > 3)
+       
+
+        if (Stamp.GetComponent<Transform>().position.y < -1.3f)
+        {
+            counter++;
+        }
+
+        if (counter >= 300)
         {
             Hook.SetActive(true);
             StartCoroutine(WaitAndLoadScene());
-        }
-        Debug.Log("Bam:  " + count);
 
-        count++;
+        }
+
+
     }
 
     IEnumerator WaitAndLoadScene()
@@ -32,4 +41,5 @@ public class Stamp_Trigger : MonoBehaviour {
         SceneManager.LoadScene("Mojito.Pick_Mint");
     }
 }
- 
+
+

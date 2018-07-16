@@ -656,6 +656,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2008037002}
+    - target: {fileID: 224613709549100340, guid: d7016577dd49b904baea97aa02567d50,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7016577dd49b904baea97aa02567d50, type: 2}
   m_IsPrefabParent: 0
@@ -748,11 +753,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 630827117}
---- !u!224 &665061574 stripped
-RectTransform:
-  m_PrefabParentObject: {fileID: 224475098720895692, guid: d7016577dd49b904baea97aa02567d50,
-    type: 2}
-  m_PrefabInternal: {fileID: 599399979}
 --- !u!1 &766988803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1036,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 377, y: 167.6}
+  m_AnchoredPosition: {x: 374, y: 177}
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1729465014
@@ -1212,7 +1212,7 @@ RectTransform:
   - {fileID: 1992978608}
   - {fileID: 630827118}
   - {fileID: 766988804}
-  - {fileID: 665061574}
+  - {fileID: 1986029946}
   - {fileID: 1729465013}
   - {fileID: 484480639}
   - {fileID: 576358232}
@@ -1224,6 +1224,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!224 &1986029946 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224613709549100340, guid: d7016577dd49b904baea97aa02567d50,
+    type: 2}
+  m_PrefabInternal: {fileID: 599399979}
 --- !u!1 &1992978607
 GameObject:
   m_ObjectHideFlags: 0

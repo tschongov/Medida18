@@ -1,6 +1,6 @@
 WebGL
 PlayerPath?
-C:/Users/Tung/Documents/Take it! Shake it!
+C:/Users/Tung/Documents/TISI
 SceneListBegin?
 Assets/Resources/Scenes/Main Menu.unity
 Assets/Resources/Scenes/Mojito_Main.unity
@@ -143,7 +143,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-4ddddd36cca6333dac77ab9b108d5386 Assembly-CSharp.dll:.Stamp_Trigger
+a0c533bb18d1362a9ea0a70efef2d414 Assembly-CSharp.dll:.Stamp_Trigger
 9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 dcfcb28d1dc638e82b3f6d20dff136a8 Assembly-CSharp.dll:.glas_not_full
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.limettensaft
@@ -186,12 +186,12 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-4ddddd36cca6333dac77ab9b108d5386 Assembly-CSharp.dll:.Trigger
+052cb9b52ae0ac21b50177f79a361215 Assembly-CSharp.dll:.Trigger
 39c01c3ab9b918473fd1a62ed9bc3616 Assembly-CSharp.dll:.becher_movetowards
 db327737af03909f223cd7cf4bdbffc8 Assembly-CSharp.dll:.Overwatch_CutLime
 76a3b3343eaf5fb86e1dd1e54886b921 Assembly-CSharp.dll:.Overwatch_Stamp
 7bf8085f6c188e1b5f1bc536b9181e36 Assembly-CSharp.dll:.shake
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.lime
+cdbca316b8150bbc0f5fc3f5d60728f6 Assembly-CSharp.dll:.lime
 87ac0f4d61dadf543efaea11dc55ad0d Assembly-CSharp.dll:.Next_Scene
 71c80e0313c179dfcebbecfe1ad6d227 Assembly-CSharp.dll:.Cut_full
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -222,4 +222,4 @@ d9c9dfc46c4ab7d694e62e01b18fe5c9 Assembly-CSharp.dll:.salt
 27ea197c5af0e65eb71cecf160c5c1ec Assembly-CSharp.dll:.Add_Rum_Menu
 eceef1386bc3d4e5e5a5ee7cd57b3290 Assembly-CSharp.dll:.pfeil_rechts
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.button_mute
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Drag
+c614e2948a9cff52dfd48f2591954d7b Assembly-CSharp.dll:.Drag

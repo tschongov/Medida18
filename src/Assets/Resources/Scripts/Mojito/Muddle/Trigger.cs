@@ -7,6 +7,7 @@ public class Trigger : MonoBehaviour
 {
 
     public GameObject Hook;
+    public GameObject Stamp;
 
     void Start()
     {
@@ -14,26 +15,29 @@ public class Trigger : MonoBehaviour
     }
 
 
-    public int count = 0;
-    void OnCollisionEnter2D()
+    public int counterX = 0;
+    public int counterY = 0;
+    
+    void Update()
     {
-        if (count >= 16)
+
+        if (Stamp.GetComponent<Transform>().position.x <5.5)
+        {
+            counterX++;
+        }
+
+        if (counterX >= 1000)
         {
             Hook.SetActive(true);
             StartCoroutine(WaitAndLoadScene());
 
         }
 
-        else
-        {
-            count++;
-        }
-
-
     }
+
     IEnumerator WaitAndLoadScene()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("Chapter Select");
     }
 }

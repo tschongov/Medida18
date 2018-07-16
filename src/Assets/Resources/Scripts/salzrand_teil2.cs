@@ -23,7 +23,7 @@ public class salzrand_teil2 : MonoBehaviour {
     {
 
         //Debug.Log(glass.GetComponent<Transform>().position.y);
-        if (glass.GetComponent<Transform>().position.y <= -4)
+        if (glass.GetComponent<Transform>().position.y <= -2.3f)
         {
             Hook.SetActive(true);
             StartCoroutine(WaitAndLoadScene());

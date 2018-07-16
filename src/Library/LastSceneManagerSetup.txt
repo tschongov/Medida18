@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Resources/Scenes/Daiquiri Salzrand Minispiel1.unity
+- path: Assets/Resources/Scenes/Mojito.Cut_Lime.unity
   isLoaded: 1
   isActive: 1

@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
-    
-    void Update()
+    public int speed;
+    Rigidbody2D rig;
+    void Start()
     {
-
-      
-
+        rig = GetComponent<Rigidbody2D>();
     }
+
 
     void OnMouseDrag()
     {
-        Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.position = (pos);
-        
+        //float horizontal = Input.GetAxis("Fire1");
+        float vertical = Input.GetAxis("Mouse Y");
+        Vector2 move = new Vector2(0, vertical) * speed * Time.deltaTime;
+        rig.MovePosition(rig.position + move);
     }
 }
 
